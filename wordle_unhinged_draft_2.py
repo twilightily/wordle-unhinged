@@ -31,7 +31,7 @@ def play_game():
         not_green_secret_word = []       # letters from the secret word that are not guessed correctly aka they're EITHER GRAY OR YELLOW
         not_green_x = []                 # letters from the guessed word x that are not green (they are either gray or yellow)
 
-        x = input("guess!:")
+        x = input("guess the word!:")
         if len(x) != 4:
             print("letter can only be 4 letters,you will lose a chance")
         
