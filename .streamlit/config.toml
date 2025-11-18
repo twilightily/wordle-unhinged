@@ -1,6 +1,8 @@
     [theme]
-    primaryColor="#dcc200ff" # Color for interactive elements like buttons and sliders
+    primaryColor="#c90b01ff" # Color for interactive elements like buttons and sliders
     backgroundColor="#0E1117" # Background color of the entire app
     secondaryBackgroundColor="#EBE8E8" # Background color for elements like the sidebar and input widgets
     textColor="#FAFAFA" # Color of the main text
     font="monospace" # Font family (sans serif, serif, monospace)
+
+
