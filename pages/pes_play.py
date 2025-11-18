@@ -1,7 +1,7 @@
 import streamlit as st
 import random 
 
-pes_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
+pes_list=["PIXEL","BEBLOCK","MECHBLOCK","SHUNYA","NEURALHIVE","HACKERSPACE","JACKFRUIT","ORANGE","BANANA","PESSANT","PLACEMENT","COLLEGE","INTERVIEW","MATLAB","NIRANTARA","HASHTAG","PANACHE","ATTENDANCE","BUNSAMOSA","MAAYA","CODECHEF","VEGAVATH","AVIONS","HACKATHON","HACKNIGHT","PESUECC","BOOTSTRAP"]
 # index_of_word = random.randrange(0, len(random_list))
 #secret_word = (random_list[index_of_word]).upper
 # n=len(secret_word)

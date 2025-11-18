@@ -1,7 +1,7 @@
 import streamlit as st
 import random 
 
-food_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
+food_list= ["BUNSAMOSA", "EGGPUFF", "VEGPUFF", "SAMOSA", "SALAD", "COLESLAW", "JACKFRUIT","ORANGE","BANANA", "SANDWICH", "MAGGI", "NOODLES", "BURGER", "WAFFLE", "PANCAKE", "CHOCOLATE", "COFFEE", "CREPE", "BARBECUE", "OLIVE", "PIZZA", "PASTA", "CUTLET", "SOUP", "GRAVY", "IDLI", "DOSA", "SALSA", "FUDGE", "BREAD", "CURRY", "TACO", "WRAP", "STEAK", "MUFFIN", "DONUT", "BAGEL", "PAKODA", "UPMA", "PONGAL", "KHICHDI", "VADA", "PARATHA", "CHIPS", "BISCUIT", "PASTRY", "SHAWARMA", "RISOTTO", "SOBA", "RAMEN", "SUSHI"]
 # index_of_word = random.randrange(0, len(random_list))
 #secret_word = (random_list[index_of_word]).upper
 # n=len(secret_word)

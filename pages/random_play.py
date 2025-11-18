@@ -1,7 +1,7 @@
 import streamlit as st
 import random 
 
-random_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
+random_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT', "MEADOW", "CRYSTAL", "FOREST", "MIRACLE", "HARVEST", "SHADOW", "GALAXY", "VISIBLE", "PLAYFUL", "CAPTURE", "MOVIE", "FANTASY", "QUALITY", "JOURNEY", "SPIRIT", "ANCIENT", "TOWER", "TEMPLE", "CLASSIC", "MISSION", "BALANCE", "EXPLORE", "AUDIO", "TACTIC", "PATTERN", "ORCHARD", "MEANING", "REFLECT", "SUNRISE"]
 # index_of_word = random.randrange(0, len(random_list))
 #secret_word = (random_list[index_of_word]).upper
 # n=len(secret_word)

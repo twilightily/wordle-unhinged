@@ -1,7 +1,7 @@
 import streamlit as st
 import random 
 
-tech_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
+tech_list=["SERVER", "CLIENT", "ROUTER", "SWITCH", "PYTHON", "SCRIPT", "CODING", "PROGRAMMER", "BROWSER", "NETWORK", "PACKET", "KERNEL", "STORAGE", "VIRTUAL", "BACKEND", "FRONTEND", "MACHINE", "LEARNER", "DATASET", "ENCRYPT", "DECRYPT", "PROCESS", "PROGRAM", "DEBUGGER", "FIREWALL", "DISPLAY", "MONITOR", "KEYBOARD", "MOBILE", "DRIVER", "COMPILER", "LINUX", "GITHUB","LAPTOP", "DATABASE", "CIRCUIT", "ROBOTIC", "STORAGE", "WIRELESS", "CONNECT", "CLOUD", "UPLOAD", "DOWNLOAD", "HACKATHON"]
 # index_of_word = random.randrange(0, len(random_list))
 #secret_word = (random_list[index_of_word]).upper
 # n=len(secret_word)
