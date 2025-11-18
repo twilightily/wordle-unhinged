@@ -1,16 +1,12 @@
 import streamlit as st
-#from randomlist import secret_word or from mode_pick import secret_word
-st.set_page_config(
-    page_title="Wordle UNHINGED : PLAY",
-    initial_sidebar_state = "collapsed"
-)
+import random 
 
+random_list=['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
+# index_of_word = random.randrange(0, len(random_list))
+#secret_word = (random_list[index_of_word]).upper
+# n=len(secret_word)
 
-#CANNOT USE THE LIST THING HERE CAUSE EVERY GUESS IT GENERATES A NEW WORD
-secret_word = 'APPLE'
-n=len(secret_word)
-
-st.set_page_config(page_title="Wordle UNHINGED.", layout="centered")
+st.set_page_config(page_title="Wordle UNHINGED : Random", layout="centered")
 st.html("<h1 style='text-align: center;'>Wordle UNHINGED.</h1>")
 st.markdown("""
 <style>
@@ -23,6 +19,11 @@ input {
 }
 </style>
 """, unsafe_allow_html=True)
+
+#setting the secret word so it doesn't change at every rerun
+if "secret_word" not in st.session_state:
+    st.session_state.secret_word = random.choice(random_list)
+n = len(st.session_state.secret_word)
 
 #setting the grid for the words with n columns and 6 chances
 if "grid" not in st.session_state:
@@ -53,10 +54,10 @@ def evaluate_guess(word):
 
     # saving correct letters as green
     for i in range(n):
-        if word[i] == secret_word[i]:
+        if word[i] == st.session_state.secret_word[i]:
             result_colours[i] = "green"
         else:
-            not_green_secret_word.append(secret_word[i])
+            not_green_secret_word.append(st.session_state.secret_word[i])
             not_green_x.append(word[i])
         
         for letter in not_green_secret_word:
@@ -109,7 +110,7 @@ if st.session_state.current_row > 0:
     last_row = st.session_state.current_row - 1
     guessed_word = "".join(st.session_state.grid[last_row])
 
-    if guessed_word == secret_word:
+    if guessed_word == st.session_state.secret_word:
         st.success("Congratulations! You guessed the word!! ⭐⭐⭐⭐⭐")
         c1,c2= st.columns(2,gap=None)
         with c1:
@@ -124,8 +125,8 @@ if st.session_state.current_row > 0:
         #st.stop()
         
 
-    if st.session_state.current_row >= 6:
-        st.error(f"You lost😈! The word was {secret_word}.")
+    elif st.session_state.current_row >= 6:
+        st.error(f"You lost😈! The word was {st.session_state.secret_word}.")
 
         c1,c2= st.columns(2,gap=None)
         with c1:

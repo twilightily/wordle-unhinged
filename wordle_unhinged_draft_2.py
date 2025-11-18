@@ -4,7 +4,7 @@ def play_game():
 
     def random_():
         word_list.extend(['bark','meow','disk', 'lost', 'word', 'poem', 'fact', 'girl', 'town', 'love', 'dirt', 'rant', 'news', 'bird', 'army', 'milk','lily', 'node', 'shot', 'heat', 'race', 'debt', 'fade', 'bean', 'meal', 'pour', 'fire', 'hang', 'cage', 'take', 'pack', 'wake', 'trip', 'half', 'crop', 'pace', 'rung', 'dorm', 'grow', 'tidy','plot'])
-        #random_list = ['bark','meow','disk', 'lost', 'word', 'poem', 'fact', 'girl', 'town', 'love', 'dirt', 'rant', 'news', 'bird', 'army', 'milk','lily', 'node', 'shot', 'heat', 'race', 'debt', 'fade', 'bean', 'meal', 'pour', 'fire', 'hang', 'cage', 'take', 'pack', 'wake', 'trip', 'half', 'crop', 'pace', 'rung', 'dorm', 'grow', 'tidy','plot']
+        #random_list = ['BARK', 'MEOW', 'DISK', 'LOST', 'WORD', 'POEM', 'FACT', 'GIRL', 'TOWN', 'LOVE', 'DIRT', 'RANT', 'NEWS', 'BIRD', 'ARMY', 'MILK', 'LILY', 'NODE', 'SHOT', 'HEAT', 'RACE', 'DEBT', 'FADE', 'BEAN', 'MEAL', 'POUR', 'FIRE', 'HANG', 'CAGE', 'TAKE', 'PACK', 'WAKE', 'TRIP', 'HALF', 'CROP', 'PACE', 'RUNG', 'DORM', 'GROW', 'TIDY', 'PLOT']
     random_()
 
     #def clubs_():

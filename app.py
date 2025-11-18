@@ -28,5 +28,5 @@ st.write("3. You will also know how many of the guessed letters are :yellow[righ
 st.write("3. You will get :red[SIX] chances and the length of your word can be anything.")
 st.write(":yellow[ARE YOU READY!?]")
 
-if st.button("PLAY",type='primary'):
+if st.button("PLAY",type='primary',width = 200):
     st.switch_page('pages/mode_pick.py')
