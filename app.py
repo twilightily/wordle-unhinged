@@ -59,7 +59,7 @@ st.write("1. You will get a random word from the mode you've chosen and you've g
 st.write("2. When you enter a guess, you'll know what letters are in the :green[right place]")
 st.write("3. You will also know how many of the guessed letters are :yellow[right BUT in the wrong place] (if any)")
 st.write("3. You will get :red[SIX] chances and the length of your word can be anything.")
-st.write(":yellow[ARE YOU READY!?]")
+st.write(":yellow[ARE YOU READY!?] (p.s. on phone please rotate")
 
 if st.button("PLAY",type='primary',width = 200):
     st.switch_page('pages/mode_pick.py')
