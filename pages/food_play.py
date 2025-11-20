@@ -7,7 +7,7 @@ food_list= ["BUNSAMOSA", "EGGPUFF", "VEGPUFF", "SAMOSA", "SALAD", "COLESLAW", "J
 # n=len(secret_word)
 
 st.set_page_config(page_title="Wordle UNHINGED : Random", layout="centered")
-st.html("<h1 style='text-align: center;'>Wordle UNHINGED.</h1>")
+st.markdown("<h1 style='text-align: center;'>Wordle UNHINGED.</h1>", unsafe_allow_html=True)
 st.markdown("""
 <style>
 /* Input text color */
